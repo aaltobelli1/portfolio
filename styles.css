@@ -66,8 +66,15 @@ p {
   padding: 120px 60px;
 }
 @media (max-width: 960px) {
+  h1 {
+    font-size: 60px;
+  }
   .project-description {
     padding: 0;
     text-align: center;
   }
+}
+.weather-pic {
+  height: auto;
+  width: fit-content;
 }
