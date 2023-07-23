@@ -43,7 +43,7 @@ p {
   font-family: var(--heading-font-family);
   font-weight: normal;
   font-size: 24px;
-  line-height: 2;
+  line-height: 1.5;
 }
 .btn-branding {
   background: #6c63ff;
@@ -67,15 +67,15 @@ p {
 }
 @media (max-width: 960px) {
   h1 {
-    font-size: 60px;
+    font-size: 44px;
+    line-height: 2;
   }
   .project-description {
     padding: 0;
     text-align: center;
   }
-}
-img {
-  max-width: 100%;
-  max-height: auto;
-  display: block;
+
+  .hero {
+    padding: 80px 20px;
+  }
 }
